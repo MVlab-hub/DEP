@@ -57,23 +57,31 @@ import(grid)
 import(imputeLCMD)
 import(limma)
 import(shinydashboard)
-importFrom(DT,dataTableOutput)
-importFrom(DT,renderDataTable)
+importFrom(DT,
+  dataTableOutput,
+  renderDataTable
+)
 importFrom(cluster,daisy)
 importFrom(purrr,map_df)
 importFrom(readr,parse_factor)
 importFrom(shiny,runApp)
-importFrom(stats,cor)
-importFrom(stats,formula)
-importFrom(stats,median)
-importFrom(stats,model.matrix)
-importFrom(stats,prcomp)
-importFrom(stats,rnorm)
-importFrom(stats,sd)
-importFrom(stats,terms.formula)
-importFrom(tibble,column_to_rownames)
-importFrom(tibble,rownames_to_column)
-importFrom(tidyr,gather)
-importFrom(tidyr,separate)
-importFrom(tidyr,spread)
-importFrom(tidyr,unite)
+importFrom(stats,
+  cor,
+  formula,
+  median,
+  model.matrix,
+  prcomp,
+  rnorm,
+  sd,
+  terms.formula
+)
+importFrom(tibble,
+  column_to_rownames,
+  rownames_to_column
+)
+importFrom(tidyr,
+  gather,
+  separate,
+  spread,
+  unite
+)

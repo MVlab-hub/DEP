@@ -150,7 +150,6 @@
 #'   Experimental design of the DiUbi dataset.
 #' }
 #'
-#' @docType package
 #' @name DEP
 #'
 #'
