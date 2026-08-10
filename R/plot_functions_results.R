@@ -406,7 +406,7 @@ plot_heatmap <- function(dep, type = c("contrast", "centered"),
     kmeans <- FALSE
   }
   if(kmeans & !obs_NA) {
-    set.seed(1)
+    #set.seed(1)
     df_kmeans <- kmeans(df, k)
     if(type == "centered") {
       # Order the k-means clusters according to the maximum fold change

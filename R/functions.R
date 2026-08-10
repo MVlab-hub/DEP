@@ -836,7 +836,7 @@ test_diff <- function(se, type = c("control", "all", "manual"),
   # Show error if inputs are not the required classes
   assertthat::assert_that(inherits(se, "SummarizedExperiment"),
                           is.character(type),
-                          class(design_formula) == "formula")
+                          inherits(design_formula, "formula"))
 
   # Show error if inputs do not contain required columns
   type <- match.arg(type)

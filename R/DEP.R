@@ -166,5 +166,5 @@
 #' @importFrom stats median model.matrix rnorm sd cor prcomp formula terms.formula
 #' @importFrom cluster daisy
 #'
-#'
+#' @return None
 NULL

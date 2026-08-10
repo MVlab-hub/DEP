@@ -283,7 +283,7 @@ analyze_dep <- function(se, type = c("all", "control", "manual"),
                           length(alpha) == 1,
                           is.numeric(lfc),
                           length(lfc) == 1,
-                          class(design_formula) == "formula")
+                          inherits(design_formula, "formula"))
   type <- match.arg(type)
 
   # Test for differentially enriched proteins

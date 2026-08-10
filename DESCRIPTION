@@ -21,7 +21,7 @@ Description: This package provides an integrated analysis workflow for robust
     analysis workflow and generate a report. Even easier to use are the 
     interactive Shiny apps that are provided by the package.
 License: Artistic-2.0
-Depends: R (>= 3.5)
+Depends: R (>= 4.6.0)
 Encoding: UTF-8
 LazyData: true
 Imports: ggplot2, dplyr, purrr, readr, tibble, tidyr,

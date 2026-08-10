@@ -3,6 +3,9 @@
 \name{DEP}
 \alias{DEP}
 \title{DEP: A package for Differential Enrichment analysis of Proteomics data.}
+\value{
+None
+}
 \description{
 This package provides an integrated analysis workflow for robust and
 reproducible analysis of mass spectrometry proteomics data for
