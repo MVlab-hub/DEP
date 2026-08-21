@@ -2,7 +2,7 @@ Package: DEP
 Title: Differential Enrichment analysis of Proteomics data
 Version: 3.10.0
 Authors@R: c(
-    person("Jelmer", "Dijkstra", email = "protechrobioMV@gmali.com", role = c("aut", "cre")),
+    person("Jelmer", "Dijkstra", email = "protechrobioMV@gmail.com", role = c("aut", "cre")),
     person("Arne", "Smits", email = "smits.arne@gmail.com", role = "aut"),
     person("Wolfgang", "Huber", email = "wolfgang.huber@embl.de", role = "aut"))
 Description: This package provides an integrated analysis workflow for robust 
